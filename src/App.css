@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root,
+.todo-appln .add-task-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-appln .add-task-form {
+  gap: 60px;
+}
+
+.todo-appln .add-task-form input[type="text"] {
+  width: 250px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.todo-appln .add-task-btn {
+  background: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 9px;
+  cursor: pointer;
+}
+
+.todo-appln {
+  border: 1px solid gray;
+  width: 60%;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+}
+
+.todo-appln ul li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  list-style: none;
+  padding: 5px;
+  font-size: 17px;
+}
+
+.todo-appln .strike-task {
+  text-decoration: line-through;
+}
